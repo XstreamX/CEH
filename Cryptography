@@ -3,3 +3,65 @@
 https://github.com/infovault-Ytube/CEH-Practical-Notes/blob/main/README.md
 
 
+# HashCalc
+Calculate Hash of text/File by HashCalc in Windows
+
+
+
+
+# MD5Calculator in Windows
+
+
+
+
+
+#CryptoForge
+
+Encrypt data with Password and only be decoded with cryptoforge by giving password
+
+file.cfe
+
+
+
+
+
+
+#BCTextEncoder: 
+
+Text Encode/Decode  using password 
+
+
+
+
+#VeraCrypt 
+
+Disk Encrypt/Decrypt
+
+https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html
+
+
+
+
+
+#CrypTool 
+
+Encode/Decode Text (File Extension is .hex)
+
+File → New → Enter Text → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Encrypt
+
+File → Open → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Decrypt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
