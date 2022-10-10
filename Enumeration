@@ -1,0 +1,58 @@
+
+
+enum4linux -A <Target_IP>    All thinigs 
+
+-U  users
+-p password policy 
+-s  share available 
+-n similer to nbtstat 
+
+
+enum4linux –u <user>   -p <password> -s <ip>   #if provide credentials
+
+
+
+
+Smbclient  //ip/sharename   -N       to connect to share
+
+ls
+cd 
+get
+
+---------------------------------------------------------------------------------------
+
+
+Windows
+nbtstat -A  <Target_IP>
+
+<00> workstation
+<20> file share service runinig 
+
+net user    # give user account list
+
+List All Shared Resources
+net view  <IP>                #enumerate share
+
+# Connect to Shared Resource
+net use       # share available 
+
+net use \\10.10.10.1\e ""\user:""
+net use \\10.10.10.1\e ""/user:""
+
+
+---------------------------------------------------------------------------------
+SNMP Enumeration
+
+nmap -sU -p 161 10.10.1.2
+nmap -sU -p 161 --script=snmp-brute 10.10.1.2
+
+
+# Expoilt SNMP with Metasploit
+
+use auxilary/scanner/snmp/snmp_login ↵
+set RHOSTS 10.10.1.2 ↵
+exploit ↵
+  
+use auxilary/scanner/snmp/snmp_enum ↵
+set RHOSTS 10.10.1.2 ↵
+exploit 
