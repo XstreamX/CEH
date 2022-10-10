@@ -1,0 +1,28 @@
+
+
+
+Snow.exe
+
+Cmd
+
+#to hide
+
+snow -C -m "My visa card is 45656684512263" -p "magic"  readme.txt readme2.txt
+-m   hidden text
+
+
+
+# To unhide the hidden text
+
+snow -C -p "magic" readme2.txt
+
+-p  password
+
+
+
+
+Openstego  Gui
+
+ 
+
+ 
