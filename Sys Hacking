@@ -103,7 +103,7 @@ Use  post/windows/gather/hashdump    # gather hash dump
 
 use exploit/windows/local/bypassuac_fodhelper # privilage escalation corse 
 
-use exploite/widows/locall/bypassuac     # ejpt
+use exploit/windows/local/bypassuac    # ejpt
 
 
 Run vnc    # remote control
