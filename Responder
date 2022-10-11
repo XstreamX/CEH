@@ -5,7 +5,7 @@ Responder
 #Based  on LLMNR/NBT-NS  port udp 5355/137
 
 On kali /
-Responder -I eth0
+responder -I eth0
 ---------------------------
 
 On windows
