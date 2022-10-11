@@ -84,6 +84,8 @@ getsystem
 
 sessions –i 1
 
+sessions
+
 ps  # show all process
 
 getpid # process id 
