@@ -54,7 +54,13 @@ Nikto  –h     http://example.com
 
 --------------------------------------------------------------------------------------
 
+uniscan -u http://10.10.10.12:8080/CEH -q
 
+
+uniscan -u http://10.10.10.12:8080/CEH -we  # this will search for robots.txt
+
+
+----------------------------------------------------------------------------------
 
 
 #Command Injection DVWA 
@@ -71,3 +77,10 @@ Nikto  –h     http://example.com
 | net localgroup Administrators Test /Add
 
 # you can use this account to access through RDP Without password
+
+
+
+
+
+
+
