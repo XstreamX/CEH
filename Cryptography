@@ -29,7 +29,8 @@ file.cfd
 
 
 #BCTextEncoder: 
-#only text
+#only text and using AES-256 algorthem
+
 Text Encode/Decode  using password 
 
 
