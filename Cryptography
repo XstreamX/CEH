@@ -17,7 +17,7 @@ Calculate Hash of text/File by HashCalc in Windows
 
 #CryptoForge
 
-Encrypt data with Password and only be Decrypt with cryptoforge by giving password
+Encrypt data(photo,document,text) with Password and only be Decrypt with cryptoforge by giving password
 
 file.cfe
 
@@ -29,7 +29,7 @@ file.cfd
 
 
 #BCTextEncoder: 
-
+#only text
 Text Encode/Decode  using password 
 
 
