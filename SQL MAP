@@ -11,7 +11,7 @@ Open the terminal to use sqlmap
 
 
 
-sqlmap  -u "http://www.example.com/viewp.aspx?id=1" –cookie "mscope=uydl="  -p <injection point>
+sqlmap  -u "http://www.example.com/viewp.aspx?id=1" –-cookie "mscope=uydl="  -p <injection point>
 
 
 #or without injection point
