@@ -4,7 +4,7 @@ SQL MAP
 
 
 
-Open the vulnerable website / blah' or 1=1 --       |    a’     |    ‘ or 1=1;-- -
+Open the vulnerable website / blah' or 1=1 --       |    a'     |    ' or 1=1;-- -
 Copy the cookie from the inspect element – console document.cookie /or from burpsuite
 Open the terminal to use sqlmap 
 
