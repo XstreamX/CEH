@@ -27,6 +27,7 @@ msf auxiliary(wordpress_login_enum) > set pass_file pass.txt
 msf auxiliary(wordpress_login_enum) > exploit
 
 # user_file if list  & username if only one user 
+# if not normal port use e.g. set RPORT 8080
 
 -----------------------------------------------------------------------------------
 
