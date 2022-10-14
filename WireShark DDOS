@@ -14,6 +14,6 @@ https://www.comparitech.com/net-admin/wireshark-cheat-sheet/WireShark DDOS/Dos
 
 # ip.dst==192.168.1.1
 
-
+# can be use to count DDos attack  tcp.flags.syn == 1 and ip.dst==192.168.56.102
 
 #To find passwords :   http.request.method == POST
