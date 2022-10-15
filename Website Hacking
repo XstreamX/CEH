@@ -40,7 +40,7 @@ dirb   http://example.com  -X <.old or .xml or .bak>
 dirb     http://example.com
 
 # default wordlist on dirb       /usr/share/wordlists/dirb/common.txt
-/robots
+/robots.txt
 
 
 
