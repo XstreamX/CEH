@@ -4,7 +4,7 @@ enum4linux -A <Target_IP>    All thinigs
 
 -U  users
 -p password policy 
--s  share available 
+-S  share available 
 -n similer to nbtstat 
 
 
