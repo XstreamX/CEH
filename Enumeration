@@ -18,6 +18,7 @@ Smbclient  //ip/sharename   -N       to connect to share
 ls
 cd 
 get
+get flag_1 -  #to show on screen
 
 ---------------------------------------------------------------------------------------
 
