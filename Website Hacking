@@ -17,6 +17,12 @@ wpscan --url http://192.168.1.100/wordp/ -U users.txt –P  /usr/…./rockyou.tx
 -U  # can be one user also
 
 
+/wp-admin
+
+
+
+
+
 
 
 
