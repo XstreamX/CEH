@@ -57,3 +57,16 @@ exploit ↵
 use auxilary/scanner/snmp/snmp_enum ↵
 set RHOSTS 10.10.1.2 ↵
 exploit 
+
+----------------------------------------------------------------------------------
+
+SMB with Metasploit
+
+
+scanner/smb/smb_version
+
+
+
+
+
+
