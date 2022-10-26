@@ -65,6 +65,13 @@ set LPORT 444
 run
 
 
+
+#NOTE# IF they don't give LPORT use the defult 4444 #
+
+
+
+
+
 exploit -j -z      #( only use it if lisnter not working autmatic)
 
 
