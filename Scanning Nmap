@@ -4,7 +4,7 @@
 
 
 
-Nmap   –sn   -p-    -sV   -O    -A       192.168.56.0/24          --open
+Nmap   –sn   -p-    -sV   -O    -A    192.168.56.0/24    -oN   result.txt      --open
 
 nmap –sV  –vv  --script vuln   ip           #all match vulnarability  
 
