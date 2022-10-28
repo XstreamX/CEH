@@ -138,7 +138,7 @@ Copy payload and save it in leafpad save it
 upload.php 
 
 open website which want to upload file on here DVWA and upload file
-you will get link below copy it and open it on another page
+you will get link below copy it and open it on another page   # http://10.10.10.12:8080/dvwa/hackable/uploads/upload.php
 
 
 on kali go and open 
