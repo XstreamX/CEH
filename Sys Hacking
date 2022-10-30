@@ -79,6 +79,20 @@ exploit -j -z      #( only use it if lisnter not working autmatic)
 
 #go windows and imstall from 
 http://10.10.10.11/share 
+------------------------------------------------------------------------------
+
+
+
+
+
+#NETCAT Listener
+
+nc –lvp 4444
+
+nc –lvn 4444
+
+
+
 
 --------------------------------------------------------------------------------
 
