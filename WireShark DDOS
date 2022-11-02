@@ -14,6 +14,15 @@ https://www.comparitech.com/net-admin/wireshark-cheat-sheet/WireShark DDOS/Dos
 
 # ip.dst==192.168.1.1
 
-# can be use to count DDos attack  tcp.flags.syn == 1 and ip.dst==192.168.56.102
+# can be use to count DDos attack  tcp.flags.syn == 1 and ip.dst==192.168.56.102        #also  tcp.port==80
+
+
+
+Statistics ->  flow Graph
+
+Statistics -> Conversations -> ipv4
+
+Statistics -> Endpoibts
+
 
 #To find passwords :   http.request.method == POST
