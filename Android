@@ -15,7 +15,11 @@ adb shell
 
 
 
-# Download a File from Android using ADB tool
+# Download a File from Android using ADB tool # NOTE do this out shell
+
+adb pull /sdcard/log.txt
+
+#or
 adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
 adb pull sdcard/log.txt /home/mmurphy/Desktop
 
