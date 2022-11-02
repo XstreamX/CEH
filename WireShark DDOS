@@ -25,4 +25,27 @@ Statistics -> Conversations -> ipv4
 Statistics -> Endpoibts
 
 
+---------------------------------------------------------------------
+
+
 #To find passwords :   http.request.method == POST
+
+
+
+
+---------------------------------------------------------------------------
+
+
+#detect ARP Poisoning on Wireshark
+
+Analyze -> Expert information 
+
+# highlighted in yellow
+
+Duplicate ip address configured 10.10.10.11
+Duplicate ip address configured 10.10.10.16
+
+# this mean two ip add detected at one MAC add
+
+
+
