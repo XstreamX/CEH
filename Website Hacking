@@ -85,6 +85,8 @@ https://www.hackingarticles.in/multiple-ways-to-detect-http-options/
 
 
 
+# nmap -p 443 --script http-methods localhost
+
 
 ---------------------------------------------------------------------------------------
 
