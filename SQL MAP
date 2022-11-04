@@ -31,6 +31,7 @@ sqlmap -u http://www.test.com/viewprofile.aspx?id=1" --cookie="msco==; ui-tabs-1
 # if ask Y THEN Y THEN Y
 
 # Type hostname
+# TASKLIST
 
 ------------------------------------------------------------------------------------------
 
