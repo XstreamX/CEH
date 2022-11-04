@@ -53,3 +53,38 @@ show tables;
 select *from <table name>
 
 # or   use <table name>; select *from
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+dsss.py  Detect sql injuction  blind sql vuln
+
+
+git clone https://github.com/stamparm/DSSS
+cd DSSS
+python3 dsss.py  -u  "http://www.example.com/viewp.aspx?id=1"  --cookie "mscope=uydl="
+
+enter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
