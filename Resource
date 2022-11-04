@@ -35,6 +35,16 @@ arpspoof -i <interface>   -t <target>  -r <host>
 
 
 
+------------------------------------------------------------------------
+
+unzip   flag.zip
+
+unrar   x <file>
+
+gzip -d   file.gz
+
+
+
 
 
 
