@@ -13,7 +13,7 @@ enum4linux –u <user>   -p <password> -s <ip>   #if provide credentials
 
 
 
-Smbclient  //ip/sharename   -N       to connect to share
+smbclient  //ip/sharename   -N       to connect to share
 
 ls
 cd 
