@@ -112,9 +112,9 @@ ps  # show all process
 getpid # process id 
 
 
-Search –f  *.txt
+search –f  *.txt
 
-Cat /etc/shadow
+cat /etc/shadow
 
 Download  <file name>
 
