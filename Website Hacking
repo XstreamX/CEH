@@ -75,6 +75,9 @@ dirb     http://example.com
 /robots.txt
 
 
+#gobuster    faster than dirb
+
+gobuster url http://10.10.110.116/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
 --------------------------------------------------------------------------------------
 
