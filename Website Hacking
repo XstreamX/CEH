@@ -79,6 +79,10 @@ dirb     http://example.com
 
 gobuster url http://10.10.110.116/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
+or
+
+gobuster dir -u http://10.10.76.19/   -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
 --------------------------------------------------------------------------------------
 
 
