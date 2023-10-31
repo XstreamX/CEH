@@ -9,7 +9,11 @@ Copy the cookie from the inspect element – console document.cookie /or from bu
 Open the terminal to use sqlmap 
 
 
+basic syntax
 
+sqlmap  -u http://www.example.com/viewp.aspx?id=1
+
+or 
 
 sqlmap  -u "http://www.example.com/viewp.aspx?id=1" –-cookie "mscope=uydl="  -p <injection point>
 
