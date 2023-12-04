@@ -20,6 +20,14 @@ cd
 get
 get flag_1 -  #to show on screen
 
+
+
+*Note*
+
+smbclient -L 10.10.51.86
+
+will give you all sharename
+
 ---------------------------------------------------------------------------------------
 
 
