@@ -90,6 +90,14 @@ or
 
 gobuster dir -u http://10.10.76.19/   -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
+or
+
+***very important  for more*****
+use -t<number>
+for more threads
+
+gobuster dir -u http://10.10.117.180/ -t 50  -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
 --------------------------------------------------------------------------------------
 
 
