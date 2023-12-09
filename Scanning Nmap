@@ -6,7 +6,13 @@
 
 Nmap   –sn   -p-    -sV   -O    -A    192.168.56.0/24    -oN   result.txt      --open
 
-nmap –sV  –vv  --script vuln   ip           #all match vulnarability  
+
+
+        #all match vulnarability  
+
+nmap -sV  -vv -p135,139,445  --script vuln 10.10.26.124
+
+
 
 --------------------------------------------------------------------
 
