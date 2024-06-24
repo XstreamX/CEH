@@ -133,6 +133,7 @@ uniscan -u http://10.10.10.12:8080/CEH -we  # this will search for robots.txt
 
 | hostname
 | whoami
+| dir C:\
 | dir C:\path.txt
 | type path.txt
 
